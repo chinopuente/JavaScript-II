@@ -26,7 +26,9 @@ function multiplyNums(x, y, cb) {
 }
 
 function contains(item, list, cb) {
+  // for each item in list
   for(elem in list) {
+    // if
     cosole.log(elem);
     if(elem === item){
       cb(true);
